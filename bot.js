@@ -37,7 +37,6 @@ client.once('ready', () => {
 
 client.on('message', rawMessage => {
     console.log(rawMessage.content);
-    
 
     if (rawMessage.content.startsWith(prefix)){
         var mesArray = rawMessage.content.split(" ")
